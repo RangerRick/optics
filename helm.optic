@@ -1,0 +1,194 @@
+DiscardNonMatching;
+Rule {
+	Matches {
+		Domain("|elastic.co|"),
+	},
+	Matches {
+		Domain("|docs.aws.amazon.com|"),
+	},
+	Matches {
+		Domain("|docs.github.com|"),
+	},
+	Matches {
+		Domain("|terraform.io|"),
+	},
+	Matches {
+		Domain("|postgresql.org|"),
+	},
+	Matches {
+		Domain("|istio.io|"),
+	},
+	Matches {
+		Domain("|pkg.go.dev|"),
+	},
+	Matches {
+		Domain("|thenewstack.io|"),
+	},
+	Matches {
+		Domain("|martinfowler.com|"),
+	},
+	Matches {
+		Domain("|datadoghq.com|"),
+	},
+	Matches {
+		Domain("|azure.microsoft.com|"),
+	},
+	Matches {
+		Domain("|redis.io|"),
+	},
+	Matches {
+		Domain("|nodejs.org|"),
+	},
+	Matches {
+		Domain("|kafka.apache.org|"),
+	},
+	Matches {
+		Domain("|redhat.com|"),
+	},
+	Matches {
+		Domain("|docs.oracle.com|"),
+	},
+	Matches {
+		Domain("|opentelemetry.io|"),
+	},
+	Matches {
+		Domain("|man7.org|"),
+	},
+	Matches {
+		Domain("|jenkins.io|"),
+	},
+	Matches {
+		Domain("|mongodb.com|"),
+	},
+	Matches {
+		Domain("|git-scm.com|"),
+	},
+	Matches {
+		Domain("|envoyproxy.io|"),
+	},
+	Matches {
+		Domain("|about.gitlab.com|"),
+	},
+	Matches {
+		Domain("|raw.githubusercontent.com|"),
+	},
+	Matches {
+		Domain("|infoq.com|"),
+	},
+	Matches {
+		Domain("|learn.microsoft.com|"),
+	},
+	Matches {
+		Domain("|code.visualstudio.com|"),
+	},
+	Matches {
+		Domain("|linkerd.io|"),
+	},
+	Matches {
+		Domain("|owasp.org|"),
+	},
+	Matches {
+		Domain("|docs.python.org|"),
+	},
+	Matches {
+		Domain("|jaegertracing.io|"),
+	},
+	Matches {
+		Domain("|nginx.com|"),
+	},
+	Matches {
+		Domain("|pypi.org|"),
+	},
+	Matches {
+		Domain("|npmjs.com|"),
+	},
+	Matches {
+		Domain("|linuxfoundation.org|"),
+	},
+	Matches {
+		Domain("|marketplace.visualstudio.com|"),
+	},
+	Matches {
+		Domain("|python.org|"),
+	},
+	Matches {
+		Domain("|digitalocean.com|"),
+	},
+	Matches {
+		Domain("|events.linuxfoundation.org|"),
+	},
+	Matches {
+		Domain("|semver.org|"),
+	},
+	Matches {
+		Domain("|opentracing.io|"),
+	},
+	Matches {
+		Domain("|brew.sh|"),
+	},
+	Matches {
+		Domain("|datatracker.ietf.org|"),
+	},
+	Matches {
+		Domain("|dev.to|"),
+	},
+	Matches {
+		Domain("|artifacthub.io|"),
+	},
+	Matches {
+		Domain("|github.blog|"),
+	},
+	Matches {
+		Domain("|kind.sigs.k8s.io|"),
+	},
+	Matches {
+		Domain("|jetbrains.com|"),
+	},
+	Matches {
+		Domain("|vaultproject.io|"),
+	},
+	Matches {
+		Domain("|openpolicyagent.org|"),
+	},
+	Matches {
+		Domain("|kubernetes.io|"),
+	},
+	Matches {
+		Domain("|helm.sh|"),
+	},
+	Matches {
+		Domain("|docker.com|"),
+	},
+	Matches {
+		Domain("|prometheus.io|"),
+	},
+	Matches {
+		Domain("|grafana.com|"),
+	},
+	Matches {
+		Domain("|replicated.com|"),
+	},
+	Matches {
+		Domain("|cncf.io|"),
+	},
+	Matches {
+		Domain("|golang.org|"),
+	},
+	Matches {
+		Domain("|opentelemetry.io|"),
+	},
+	Matches {
+		Domain("|nginx.com|"),
+	},
+	Action(Boost(0))
+};
+Like(Site("kubernetes.io"));
+Like(Site("helm.sh"));
+Like(Site("docker.com"));
+Like(Site("prometheus.io"));
+Like(Site("grafana.com"));
+Like(Site("replicated.com"));
+Like(Site("cncf.io"));
+Like(Site("golang.org"));
+Like(Site("opentelemetry.io"));
+Like(Site("nginx.com"));
