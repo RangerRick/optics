@@ -169,6 +169,9 @@ Rule {
 		Domain("|replicated.com|"),
 	},
 	Matches {
+		Domain("|docs.replicated.com|"),
+	},
+	Matches {
 		Domain("|cncf.io|"),
 	},
 	Matches {
